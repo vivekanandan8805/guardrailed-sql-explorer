@@ -1,0 +1,20 @@
+
+# Virtual environment
+.venv/
+
+# Python temporary files
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# API keys and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local database and backups
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*_backup.py
